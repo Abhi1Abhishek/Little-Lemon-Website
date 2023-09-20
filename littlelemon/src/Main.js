@@ -1,1 +1,8 @@
-<h1>This is Main</h1>
+
+export default function Main() {
+        return (
+            <div className="main-grid">
+                <h1>This is the Main</h1>
+            </div>
+        )
+    }

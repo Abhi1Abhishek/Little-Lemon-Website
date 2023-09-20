@@ -1,9 +1,12 @@
 import './App.css';
-
+import Header from "./Header";
+import Footer from "./Footer";
+import Main from "./Main";
+import Nav from "./Nav";
 function App() {
   return (
     <div className="App">
-      <headers/>
+      <Header />
       <nav>
         <ul>
           <li><a href="/home">Homepage</a></li>
@@ -11,8 +14,9 @@ function App() {
           <li><a href="/blog">Blogpage</a></li>
         </ul>
       </nav>
-      <main/>
-      <footer/>
+      <Nav/>
+      <Main/>
+      <Footer />
       <a href="/book" role="button">Book a Table</a>
     </div>
   );
